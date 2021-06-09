@@ -33,8 +33,25 @@ This will contain my efforts for creating a digital synthesizer on a FPGA. It wi
 - The bit precision is not specified.
 - My FPGA circuit must implement a I2S master which transmits values from a wavetable to generate the wanted sounds
 
+## Syntehsizer basics
 
-## Synthesizer intro
+- VCO Voltage Controlled Oscillator
+- Four commmon waveforms:
+- Sine, Triangular, Square and Sawtooth. Only sine is a pure frequency
+- 
+
+1. Sound sources (oscillators)
+2. Effects/filters
+3. Controls
+
+## Audio synthesis
+- How is sound created from digital circuits?
+- https://www.youtube.com/watch?v=F1RsE4J9k9w
+- Additive synthesis add multiple oscialltors togheter
+- Subtractive synthesis: filter away frequecies. Can e.g. start from white noise
+- AM synthesis: Use aoscialltor to control the volume of another oscillator adds harmonies
+- FM synthesis: use an oscialltor to control to pitch of another oscillator.
+
 
 
 
